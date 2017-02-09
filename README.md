@@ -97,3 +97,5 @@ Git常用命令:
 提交修改: git commit -m '修改的内容'
 
 推送修改: git push
+
+拉取: git pull https://github.com/用户名/仓库名.git
