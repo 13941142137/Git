@@ -99,3 +99,10 @@ Git常用命令:
 推送修改: git push
 
 拉取: git pull https://github.com/用户名/仓库名.git
+
+显示某次提交的内容: git show id
+
+提示部分命令的帮助：git help
+
+比较当前文件和暂存区文件的差异: git diff
+
