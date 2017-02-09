@@ -87,6 +87,11 @@ Git 和 SVN
   * -r
   * -f
 * mkdir 创建文件夹
+* rmdir 删除文件夹
+* ps 显示进程当前状态    例:ps u
+* kill 终止进程    例:kill -9 30142
+* date 显示系统的当前日期和时间
+* cal 显示日历
 
 Git常用命令:
 
