@@ -114,3 +114,49 @@ Git常用命令:
 查看远程服务器地址和仓库名称: git remote -v
 
 查看该文件每次提交的记录: git log
+
+将修改添加到暂存区
+
+```
+git add .
+```
+
+将修改从暂存区移除
+
+```
+git rm --cache <file>
+```
+
+查询git状态
+
+```
+git status
+```
+
+查询当前某文件与分支或暂存区有何不同
+
+```
+git diff HEAD -- <file>
+```
+
+### 忽略特殊文件/文件夹
+
+需要生成.gitignore 文件，一般来说，不需要自己创建
+
+通过[Gitignore][https://github.com/github/gitignore]地址去下载对应语言的.gitignore文件
+
+> 使用node.js 开发，则去下载 Node.gitignore文件。
+
+使用时，需要将 **Node.gitignore 改名为.gitignore** 才会生效。
+
+#### .gitignore
+
+在该文件中添加忽略规则，可以填入**文件名/文件夹名**。
+
+在.gitignore 中添加如下代码
+
+```
+node_modules/
+```
+
+则该文件夹下所有文件/文件夹都会被 .git 忽略
